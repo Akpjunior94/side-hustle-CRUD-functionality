@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  font-family: 'serif', 'poppins';
+}
+
+input{
+  padding: 15px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* .add_btn {
+	height: 39px;
+	background: #FFF8DC;
+	color: 	#6B8E23;
+	border: 2px solid #6B8E23;
+	border-radius: 5px; 
+	padding: 15px 20px;
+} */
+
+::placeholder {
+  color: rgb(173, 177, 180);
+}
+
+input:hover {
+  border-color: rgb(129, 141, 129);
+}
+
+/* h1{
+  margin-bottom: 15px;
+} */
+
+/* p {
+  margin-bottom: 20px;
+} */
+
+.calc-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-width {
+  display: block;
+}
+
+.d-container {
+  background-color: white;
+  color: green;
+  padding: 30px;
+}
+
+.join {
+  font-size: 30px !important;
+  color: grey;
+}
+
+form {
+  width: 50%;
+}
+
+.msg {
+  margin: 30px auto; 
+  padding: 10px; 
+  border-radius: 5px; 
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  width: 50%;
+  text-align: center;
+}
+
+form .input-group .btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+
+table {
+  width: 50%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: green;
+}
+
+tr {
+border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+font-size: 19px;
+/* color: #6B8E23; */
+}
+
+th, td{
+border: none;
+  height: 30px;
+  padding: 2px;
+}
+
+/* tr:hover {
+background: #E9E9E9;
+} */
+
+.task {
+text-align: left;
+}
+
+.edit_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #2E8B57;
+  color: white;
+  border-radius: 3px;
+}
+
+.del_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 3px;
+  background: #800000;
+}
+
+.post-container {
+  background-color: #fff;
+  padding: 10px 30px 30px 30px;
+  width: 50%;
+}
+
+.post-container h2 {
+  color:green;
+}
