@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-	$db = mysqli_connect('localhost', 'root', '', 'heroku_bdf6a898d1ccae9');
+	$db = mysqli_connect('localhost', 'root', '', 'todo');
 
 	// initialize variables
 	$title = "";
